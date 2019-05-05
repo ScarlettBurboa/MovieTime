@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="shortcut icon" href="./assets/faviconmovietime.png" type="image/x-icon" />
-    <title>Movie Time - QUè ver según tu tiempo</title>
+    <title>Movie Time - Qué ver según tu tiempo</title>
     <link rel="stylesheet" href="./css/style.css" />
     <!-- Compiled and minified CSS -->
     <link
@@ -29,15 +29,28 @@
         <div class="logo"><img src="./assets/movietime.png" alt="Logo Movie Time" srcset="" /></div>
         <p class="description">BUSCA QUE VER <br />Según tu tiempo disponible</p>
         <div class="play">
-          <a
+          <button
+            id="play"
             class="btn-floating btn-large yellow darken-1
           pulse"
-            ><i class="fas fa-play"></i
-          ></a>
+          >
+            <i class="fas fa-play"></i>
+          </button>
         </div>
       </div>
     </section>
-    <section id="options"></section>
+    <section id="options">
+      <div class="content-options">
+        <div class="logo"><img src="./assets/movietime.png" alt="Logo Movie Time" srcset="" /></div>
+        <div class="question">¿Cúanto tiempo tienes para ver una serie o película?</div>
+        <div class="box-buttons">
+          <div class="option"><a class="waves-effect amber accent-4 btn">Menos de 30 min</a></div>
+          <div class="option"><a class="waves-effect amber accent-4 btn">30 a 60 min</a></div>
+          <div class="option"><a class="waves-effect amber accent-4 btn">1 a 2 horas</a></div>
+          <div class="option"><a class="waves-effect amber accent-4 btn">Más de 2 horas</a></div>
+        </div>
+      </div>
+    </section>
     <section id="result"></section>
     <script src="./js/data.js"></script>
     <script src="./js/main.js"></script>
