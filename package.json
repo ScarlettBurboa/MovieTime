@@ -1,0 +1,26 @@
+{
+  "name": "movietime",
+  "version": "1.0.0",
+  "description": "Movie Time te muestra que película o serie ver según tu tiempo disponible.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScarlettBurboa/MovieTime.git"
+  },
+  "author": "Scarlett Burboa Garate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScarlettBurboa/MovieTime/issues"
+  },
+  "homepage": "https://github.com/ScarlettBurboa/MovieTime#readme",
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.2",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.1"
+  }
+}
