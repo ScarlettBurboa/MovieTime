@@ -1,96 +1,181 @@
-# "Hackathon" de final de _Common Core_, películas
+# MOVIE TIME
 
- ## Índice
-
- * [Preámbulo](#preámbulo)
-* [Resumen del proyecto](#resumen-del-proyecto)
-* [Consideraciones generales](#consideraciones-generales)
-* [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
-* [Parte obligatoria](#parte-obligatoria)
-* [Consideraciones técnicas](#consideraciones-técnicas)
-
- ***
-
- ## Preámbulo
-
- Con la aparición de plataformas para ver películas en la nube, como Netflix o
-Hulu, ver películas desde donde estés, comiendo lo que quieras
-(sin tener que pagar precios ridículos por pop-corn / pipoca / palomitas /
-canchita / cabritas), parando si es necesario, teniendo acceso a una cantidad
-abrumadora de películas... ha cambiado la experiencia del usuario
-y modificado el mercado de las películas a nivel global.
-
- ![Pelis](https://media.giphy.com/media/NipFetnQOuKhW/giphy.gif)
-
- ## Resumen del proyecto
-
- Durante estos días crearás el producto que tú quieras alrededor del mundo
-de las películas. Puede ser un sitio que hable de las mejores películas
-latinoamericanas, uno que recomiende las películas recién estrenadas en Netflix,
-uno de pelis de terror... o... ¡lo que quieras!
-
- ## Consideraciones generales
-
- * Este proyecto se debe resolver en equipos de hasta 4 personas.
-* Usa la API de [OMDB](http://www.omdbapi.com/) (The Open Movie Database).
-* Tiempo para completar el reto: 4 días.
-* Habrán dos presentaciones, una a la mitad de la _hackathon_ y otra al final.
-
- ## Objetivos de aprendizaje
-
- * Enfrentarte a un reto de corta duración en el que pongas en práctica todo
-lo aprendido hasta ahora.
-* Que sigas desarrollando tus habilidades de trabajo en equipo. Mientras más
-personas en un equipo de trabajo, mayor complejidad para: tener un entendimiento
-común, seguir el flujo de trabajo, buscar consensos, etc.
-
- ## Parte Obligatoria
-
- * Todo el planeamiento del trabajo deberá ser detallado en un repositorio único
-por _squad_ en el que se presente el _planning_, el _research_, los _sketches_
-y las inspiraciones utilizadas para definir el producto.
-* Además, deberás detallar en el archivo _readme_, qué hizo cada una en el
-proyecto.
-* El producto deberá presentarse publicado en github pages.
-
- ## Consideraciones técnicas
-
- * El diseño visual de los componentes es de libre elección de las estudiantes,
-sin embargo, si no quieren crearlo desde cero, pueden utilizar el que
-propuso [Walmart](https://drive.google.com/file/d/0B6GBtl-gO6LwaVprQkFqTGI2a28/view).
-* Deberán usar al menos un framework de css.
-
-## Reglas de las presentaciones: 
-* Cada squad tendrá 5 minutos para presentar su demo y 5 minutos para recibir preguntas. 
-
-* Las personas que presentan en la primera presentación no deben ser las mismas de la presentación final 
+## **Descripción**
+Movie time es una aplicación que te da recomendaciones de películas o series según el tiempo que tú tengas disponibles para ver!
 
 
-## Horario
+## **Definición de usuario**
+Se realizó una  [encuesta](https://docs.google.com/forms/d/1s_Q2comfimGzqFrxoVIecETbMywEb7x5iWU0fHTjIQw/edit#responses) para poder conocer más sobre las preferencias de los usuarios al momento de ver series y películas, mas del 70% ocupa netflix y ve entre 1 a 2 horas diarias,Chile ocupa el [quinto lugar](https://www.m360.cl/noticias/cultura-pop/actualidad/chile-es-el-quinto-pais-del-mundo-ve-mas-netflix/2017-12-11/153914.html) de personas que ven Netflix todos los días, la mayoría tiene entre 18 y 34 años, trabaja o estudia y un 62% le gusta recibir recomendaciones de que ver.
+Se detecta como principal problemática que la mayoría del tiempo los usuarios no saben que ver, tienen poco tiempo ya que trabajan o estudian y necesitan una solución simple y rápida.
 
-|       |  Martes           | Miércoles                    | Jueves                        | Viernes                               |
-|------ | ------------------| ---------------------------- | ----------------------------- | ------------------------------------- |
-| 8:00  | Kick off hackaton | Daily por squad              | Daily por squad               | Detalles finales                      |
-| 9:00  | Sesión de planificación  | Hackeo                       | Hackeo                        |                                       |
-| 10:00 | Hackeo            | Compartir link de aplicación | Inscripción de aplicaciones   | Feria de demostraciones               |
-| 11:00 |                   | Presentación y Feedback      |                               | Presentación de mejores squads        |
-| 12:00 |                   |                              |                               |                                       |
-|>13:00 |                   |                              |                               | Deliberación del jurado               |
-| 20:00 |                   |                              | Cierre de inscripciones       |                                       |
+![imagen 1](img/1.png)
 
-## Tips para la organización de trabajo entre UX y Front end 
 
-* Las UX y FE entienden en conjunto el reto en el que van a trabajar, se organizan y arman sus primeros bocetos.
-* Con los primeros bocetos/ideas, las FE pasan a crear su ambiente de desarrollo y a crear componentes atómicos que luego les sea fácil personalizar con CSS y utilizar para crear interfaces más complejas. Además, las FE empiezan también a trabajar en la lógica de la aplicación. Mientras tanto, las UX crean una guía de estilos, los flujos de usuarios, hacen un prototipo más completo y lo testean.
-* Las UX comparten el prototipo testeado, para que el equipo empiece a personalizar los componentes y a ponerlos en conjunto.
-* Las UX hacen QA y testing con los releases que vayan haciendo las FE.
-* Planifiquen, historias de usuario y definition of done son importantísimos.
-* Usen las ceremonias ágiles para saber en que van como equipo, dailys y retrospectivas diarias son esenciales.
-* Iteren, iteren, iteren.
+En base a nuestra investigación y encuestas, definimos a nuestro usuario:
 
-## ¿Qué es la Feria de demos?
+![imagen 3](img/usuarioR.jpg)
 
-La feria de demos se realizará el día de las presentaciones, consiste en la dinámica de “speed dating”, cada squad presentará su demo durante 3 minutos a un grupo de personas, entre ellos los jurados de la Hackathon. Luego de los 3 minutos sonará una chicharra y el grupo de personas rotará al siguiente squad, de esta forma deberán presentar durante una hora. 
+![imagen 3](img/UsuarioD.jpg)
 
-* Las demos no deben durar más de 3 minutos y deben mostrar el producto y las tecnologías usadas.
-* Los asistentes van a votar por los 5 equipos finalistas, quienes tendrán la oportunidad de hacer su demo a todo el público para poder elegir un ganador. 
+
+## **Necesidad de usuario**
+1. Recibir recomendaciones de series y películas que se acomoden al tiempo que disponga.
+2. Poder filtrar según lo que quiera ver, series o películas.
+3. Poder filtrar según el género que quiera ver.
+4. Acceder a la información de forma rápida.
+
+
+
+## **Historia de Usuario**
+
+Para realizar el proyecto nos basamos en dos historias del usuario principales.
+
+**1.**
+
+como: usuario que ve series y películas.
+
+quiero:que me recomiende p/s según mi tiempo
+ disponible.
+
+para: poder optimizar mi tiempo.
+
+*criterios de aceptación*
+
+dada: un rango de tiempos.
+
+cuando:selecciones uno.
+
+entonces:visualice las opciones de s/p para ver en ese tiempo.
+
+**2.**
+
+como: usuario que ve series y películas.
+
+quiero:que me entreguen la información de forma rápida y minimalista.
+
+para: optimizar mi tiempo.
+
+*criterios de aceptación*
+
+dada:una interfaz simple
+
+cuando:la recorra
+
+entonces: reciba la recomendación
+
+
+En una próxima continuación del proyecto, se desarrollarían estas dos historias de usuario:
+
+**3.**
+ como: usuario que ve series y películas.
+
+quiero:poder elegir el género.
+
+para: recibir opciones más afines a lo que quiero.
+
+*criterios de aceptación*
+
+dada: las varias opciones.
+
+cuando:selecciones una.
+
+entonces:mostrará sólo s/p de esa opción.
+
+**4.**
+
+como: usuario que ve series y películas.
+
+quiero:poder elegir ver series o películas.
+
+para: recibir opciones más afines a lo que quiero.
+
+*criterios de aceptación*
+
+dada: las dos opciones.
+
+cuando: seleccione una.
+
+entonces: mostrará sólo de esa opción.
+## **Definición de Terminado**
+**1**
+* al ingresar a la página el usuario hace clic en el botón.
+* aparecen cuatro opciones de tiempo.
+* el usuario hace clic en una.
+* se visualizará una recomendación de película.
+
+**2** 
+Al ingresar, el usuario recorre intuitivamente la página.
+
+## **Ideación de Diseño**
+Antes de comenzar, se analizaron páginas de referentes:
+
+[Página 1](https://itunes.apple.com/cl/app/todomovies-4/id792499896?mt=8)se aprecia un orden claro de los género y de las opciones
+
+[Página 2](https://play.google.com/store/apps/details?id=com.douglas.upflix&hl=es_419)
+
+[Página 3](https://www.suggestmemovie.com/film/5508/The-Contender/) rescatamos la simpleza con que entrega la información, pero muy útil.
+
+Diseñamos un prototipo Mobile first donde la primera pantalla pregunta por el tiempo disponible, la segunda pantalla por género de pelicula y la tercera pantalla mostrará una recomendación de película al azar, si no convence al usuario puede elergir otra.
+### **Prototipo baja fidelidad**
+![imagen 2](img/2.png)
+![imagen 3](img/3.png)
+
+
+## **Prototipo alta fidelidad**
+[Primer prototipo figma](https://www.figma.com/file/SZIt3atj8QRzB6MqwrGvxdZ8/hackathon-2.0.?node-id=0%3A1) 
+
+
+### **visual design**
+* la estrucura de la página toma como referentes páginas relacionadas con entrega de recomendaciones de películas y series, como tonos oscuros para el fondo, letras simples,etc.
+* La paleta de colores esta basada en la página IMBb, ya que la data que ocupa la aplicación es de esta página.
+
+Luego de hacer ciertos estudios, decidimos hacer cambios al diseño para optimizar la experiencia del usuario:
+
+## 1 
+
+Reducimos la cantidad de páginas de 5 a 3, logrando así economizar aún más el tiempo del usuario.
+
+## 2 
+
+Decidimos hacer la búsqueda simplemente según el tiempo que tiene el usuario, con la finalidad de ahorrarle al usuario buscar alguna opción para ver, nosotros le sugerimos automáticamente una opción.
+
+Después de hacer lo cambios anteriormente mencionados, realizamos otros estudios y búsquedas y decidimos darle un valor agregado:
+
+## 1 
+
+Colocamos un botón de "siguiente", para darle la opción al usuario de cambiar de película.
+
+## 2
+
+Creamos una página de inicio donde mostramos el logo de la página y una pequeña acción que invita al usuario a usarla.
+
+## **Test de usabilidad**
+Basándonos en el primer prototipo se realizaron dos opciones con pequeñas diferencias de flujo para testear, donde nos enfocamos en las dos principales historia de usuario, se les mostró ambos a 8 usuarios, de los cuáles 7 prefirieron la segunda opción se les hizo más fácil y entendible.
+![imagen 5](img/test.png)
+De acuerdo a ciertas observaciones como:
+ * *más claros los rangos de tiempo*
+ * *el botón "otra" les incomodó en el lugar que esta*
+ * *la segunda pantalla, pensaron que le faltaba algo porque estaba muy vacía*
+ se realizaron algunos cambios y se obtuvo el  [prototipo final.](https://www.figma.com/proto/ImgJy2vp33vNZOREzk93obgZ/prototipo-final?node-id=1%3A2&scaling=scale-down)
+
+ ## **User Flow**:
+
+Acá se muestra el flujo final del usuario al usar nuestra página
+
+![imagen 5](img/userflow.jpg)
+
+# APP MOVIE TIME
+
+
+**¿Dónde ver la aplicación?**
+
+La aplicación la puedes encontrar en el siguiente link:
+
+funcionalidad: se trabajó con lenguaje Vanilla JS, HTML5,CSS3,Framework Css Materialize.
+
+[Planificación Hackathon-películas](https://github.com/ScarlettBurboa/SCL007-hackathon-peliculas/projects/1) 
+
+ 
+
+
+
