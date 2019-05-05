@@ -1,30 +1,28 @@
 # MOVIE TIME
 
 ## **Descripción**
+
 Movie time es una aplicación que te da recomendaciones de películas o series según el tiempo que tú tengas disponibles para ver!
 
-
 ## **Definición de usuario**
-Se realizó una  [encuesta](https://docs.google.com/forms/d/1s_Q2comfimGzqFrxoVIecETbMywEb7x5iWU0fHTjIQw/edit#responses) para poder conocer más sobre las preferencias de los usuarios al momento de ver series y películas, mas del 70% ocupa netflix y ve entre 1 a 2 horas diarias,Chile ocupa el [quinto lugar](https://www.m360.cl/noticias/cultura-pop/actualidad/chile-es-el-quinto-pais-del-mundo-ve-mas-netflix/2017-12-11/153914.html) de personas que ven Netflix todos los días, la mayoría tiene entre 18 y 34 años, trabaja o estudia y un 62% le gusta recibir recomendaciones de que ver.
+
+Se realizó una [encuesta](https://docs.google.com/forms/d/1s_Q2comfimGzqFrxoVIecETbMywEb7x5iWU0fHTjIQw/edit#responses) para poder conocer más sobre las preferencias de los usuarios al momento de ver series y películas, mas del 70% ocupa netflix y ve entre 1 a 2 horas diarias,Chile ocupa el [quinto lugar](https://www.m360.cl/noticias/cultura-pop/actualidad/chile-es-el-quinto-pais-del-mundo-ve-mas-netflix/2017-12-11/153914.html) de personas que ven Netflix todos los días, la mayoría tiene entre 18 y 34 años, trabaja o estudia y un 62% le gusta recibir recomendaciones de que ver.
 Se detecta como principal problemática que la mayoría del tiempo los usuarios no saben que ver, tienen poco tiempo ya que trabajan o estudian y necesitan una solución simple y rápida.
 
-![imagen 1](img/1.png)
-
+![imagen 1](assets/1.png)
 
 En base a nuestra investigación y encuestas, definimos a nuestro usuario:
 
-![imagen 3](img/usuarioR.jpg)
+![imagen 3](assets/usuarioR.jpg)
 
-![imagen 3](img/UsuarioD.jpg)
-
+![imagen 3](assets/UsuarioD.jpg)
 
 ## **Necesidad de usuario**
+
 1. Recibir recomendaciones de series y películas que se acomoden al tiempo que disponga.
 2. Poder filtrar según lo que quiera ver, series o películas.
 3. Poder filtrar según el género que quiera ver.
 4. Acceder a la información de forma rápida.
-
-
 
 ## **Historia de Usuario**
 
@@ -35,11 +33,11 @@ Para realizar el proyecto nos basamos en dos historias del usuario principales.
 como: usuario que ve series y películas.
 
 quiero:que me recomiende p/s según mi tiempo
- disponible.
+disponible.
 
 para: poder optimizar mi tiempo.
 
-*criterios de aceptación*
+_criterios de aceptación_
 
 dada: un rango de tiempos.
 
@@ -55,7 +53,7 @@ quiero:que me entreguen la información de forma rápida y minimalista.
 
 para: optimizar mi tiempo.
 
-*criterios de aceptación*
+_criterios de aceptación_
 
 dada:una interfaz simple
 
@@ -63,17 +61,16 @@ cuando:la recorra
 
 entonces: reciba la recomendación
 
-
 En una próxima continuación del proyecto, se desarrollarían estas dos historias de usuario:
 
 **3.**
- como: usuario que ve series y películas.
+como: usuario que ve series y películas.
 
 quiero:poder elegir el género.
 
 para: recibir opciones más afines a lo que quiero.
 
-*criterios de aceptación*
+_criterios de aceptación_
 
 dada: las varias opciones.
 
@@ -89,24 +86,28 @@ quiero:poder elegir ver series o películas.
 
 para: recibir opciones más afines a lo que quiero.
 
-*criterios de aceptación*
+_criterios de aceptación_
 
 dada: las dos opciones.
 
 cuando: seleccione una.
 
 entonces: mostrará sólo de esa opción.
-## **Definición de Terminado**
-**1**
-* al ingresar a la página el usuario hace clic en el botón.
-* aparecen cuatro opciones de tiempo.
-* el usuario hace clic en una.
-* se visualizará una recomendación de película.
 
-**2** 
+## **Definición de Terminado**
+
+**1**
+
+- al ingresar a la página el usuario hace clic en el botón.
+- aparecen cuatro opciones de tiempo.
+- el usuario hace clic en una.
+- se visualizará una recomendación de película.
+
+**2**
 Al ingresar, el usuario recorre intuitivamente la página.
 
 ## **Ideación de Diseño**
+
 Antes de comenzar, se analizaron páginas de referentes:
 
 [Página 1](https://itunes.apple.com/cl/app/todomovies-4/id792499896?mt=8)se aprecia un orden claro de los género y de las opciones
@@ -116,32 +117,34 @@ Antes de comenzar, se analizaron páginas de referentes:
 [Página 3](https://www.suggestmemovie.com/film/5508/The-Contender/) rescatamos la simpleza con que entrega la información, pero muy útil.
 
 Diseñamos un prototipo Mobile first donde la primera pantalla pregunta por el tiempo disponible, la segunda pantalla por género de pelicula y la tercera pantalla mostrará una recomendación de película al azar, si no convence al usuario puede elergir otra.
-### **Prototipo baja fidelidad**
-![imagen 2](img/2.png)
-![imagen 3](img/3.png)
 
+### **Prototipo baja fidelidad**
+
+![imagen 2](assets/2.png)
+![imagen 3](assets/3.png)
 
 ## **Prototipo alta fidelidad**
-[Primer prototipo figma](https://www.figma.com/file/SZIt3atj8QRzB6MqwrGvxdZ8/hackathon-2.0.?node-id=0%3A1) 
 
+[Primer prototipo figma](https://www.figma.com/file/SZIt3atj8QRzB6MqwrGvxdZ8/hackathon-2.0.?node-id=0%3A1)
 
 ### **visual design**
-* la estrucura de la página toma como referentes páginas relacionadas con entrega de recomendaciones de películas y series, como tonos oscuros para el fondo, letras simples,etc.
-* La paleta de colores esta basada en la página IMBb, ya que la data que ocupa la aplicación es de esta página.
+
+- la estrucura de la página toma como referentes páginas relacionadas con entrega de recomendaciones de películas y series, como tonos oscuros para el fondo, letras simples,etc.
+- La paleta de colores esta basada en la página IMBb, ya que la data que ocupa la aplicación es de esta página.
 
 Luego de hacer ciertos estudios, decidimos hacer cambios al diseño para optimizar la experiencia del usuario:
 
-## 1 
+## 1
 
 Reducimos la cantidad de páginas de 5 a 3, logrando así economizar aún más el tiempo del usuario.
 
-## 2 
+## 2
 
 Decidimos hacer la búsqueda simplemente según el tiempo que tiene el usuario, con la finalidad de ahorrarle al usuario buscar alguna opción para ver, nosotros le sugerimos automáticamente una opción.
 
 Después de hacer lo cambios anteriormente mencionados, realizamos otros estudios y búsquedas y decidimos darle un valor agregado:
 
-## 1 
+## 1
 
 Colocamos un botón de "siguiente", para darle la opción al usuario de cambiar de película.
 
@@ -150,22 +153,23 @@ Colocamos un botón de "siguiente", para darle la opción al usuario de cambiar 
 Creamos una página de inicio donde mostramos el logo de la página y una pequeña acción que invita al usuario a usarla.
 
 ## **Test de usabilidad**
-Basándonos en el primer prototipo se realizaron dos opciones con pequeñas diferencias de flujo para testear, donde nos enfocamos en las dos principales historia de usuario, se les mostró ambos a 8 usuarios, de los cuáles 7 prefirieron la segunda opción se les hizo más fácil y entendible.
-![imagen 5](img/test.png)
-De acuerdo a ciertas observaciones como:
- * *más claros los rangos de tiempo*
- * *el botón "otra" les incomodó en el lugar que esta*
- * *la segunda pantalla, pensaron que le faltaba algo porque estaba muy vacía*
- se realizaron algunos cambios y se obtuvo el  [prototipo final.](https://www.figma.com/proto/ImgJy2vp33vNZOREzk93obgZ/prototipo-final?node-id=1%3A2&scaling=scale-down)
 
- ## **User Flow**:
+Basándonos en el primer prototipo se realizaron dos opciones con pequeñas diferencias de flujo para testear, donde nos enfocamos en las dos principales historia de usuario, se les mostró ambos a 8 usuarios, de los cuáles 7 prefirieron la segunda opción se les hizo más fácil y entendible.
+![imagen 5](assets/test.png)
+De acuerdo a ciertas observaciones como:
+
+- _más claros los rangos de tiempo_
+- _el botón "otra" les incomodó en el lugar que esta_
+- _la segunda pantalla, pensaron que le faltaba algo porque estaba muy vacía_
+  se realizaron algunos cambios y se obtuvo el [prototipo final.](https://www.figma.com/proto/ImgJy2vp33vNZOREzk93obgZ/prototipo-final?node-id=1%3A2&scaling=scale-down)
+
+## **User Flow**:
 
 Acá se muestra el flujo final del usuario al usar nuestra página
 
-![imagen 5](img/userflow.jpg)
+![imagen 5](assets/userflow.jpg)
 
 # APP MOVIE TIME
-
 
 **¿Dónde ver la aplicación?**
 
@@ -173,9 +177,4 @@ La aplicación la puedes encontrar en el siguiente link:
 
 funcionalidad: se trabajó con lenguaje Vanilla JS, HTML5,CSS3,Framework Css Materialize.
 
-[Planificación Hackathon-películas](https://github.com/ScarlettBurboa/SCL007-hackathon-peliculas/projects/1) 
-
- 
-
-
-
+[Planificación Hackathon-películas](https://github.com/ScarlettBurboa/SCL007-hackathon-peliculas/projects/1)
