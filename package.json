@@ -19,7 +19,5 @@
   "dependencies": {
     "normalize.css": "^8.0.1"
   },
-  "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.8.1"
-  }
+  "devDependencies": {}
 }
