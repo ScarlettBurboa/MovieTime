@@ -15,7 +15,7 @@ body{
   transition: all 1s;
 }
 .content-home, .content-options, .content-result{
-  max-width: 40rem;
+  max-width: 60rem;
   padding-left: 1rem;
   padding-right: 1rem;
   margin: auto;
@@ -25,9 +25,36 @@ body{
   width: 100%;
   max-width: 200px;
 }
-.description{
+.description, .question{
   font-weight: 600;
   font-size: 18px;
   padding: 10px 0;
   letter-spacing: 2px;
+}
+.box-buttons{
+  width:100%;
+  height: auto;
+  margin: 20px 0;
+}
+.option{
+  width:45%;
+  float:left;
+  margin: 10px 2.5%;
+}
+.option button{
+  text-align:center;
+  margin: 0 auto;
+  display:block;
+  max-width: 200px;
+  width:100%;
+  border: 2px #F5C518 dotted;
+  color: #F5C518;
+  padding: 20px 0;
+  background: transparent;
+  transition: all .3s;
+}
+.option button:hover{
+  background: #F5C518;
+  color: #100f0f;
+  font-weight: 600;
 }
