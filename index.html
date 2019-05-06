@@ -44,17 +44,61 @@
         <div class="logo"><img src="./assets/movietime.png" alt="Logo Movie Time" srcset="" /></div>
         <div class="question">¿Cúanto tiempo tienes para ver una serie o película?</div>
         <div class="box-buttons">
-          <div class="option"><button class="button-option">Menos de 30 min</button></div>
+          <div class="option"><button id="min30">Menos de 30 min</button></div>
           <div class="option"><button class="button-option">30 a 60 min</button></div>
           <div class="option"><button class="button-option">1 a 2 horas</button></div>
           <div class="option"><button class="button-option">Más de 2 horas</button></div>
         </div>
       </div>
     </section>
-    <section id="result"></section>
+    <section id="result">
+      <nav>
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo"><img src="./assets/movietime.png" alt="Logo Movie Time" srcset="" /></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+                  ><i class="material-icons">menu</i></a
+                >
+                <ul class="right hide-on-med-and-down">
+                  <li><a href="sass.html">Sass</a></li>
+                  <li><a href="badges.html">Components</a></li>
+                  <li><a href="collapsible.html">Javascript</a></li>
+                  <li><a href="mobile.html">Mobile</a></li>
+                </ul>
+              </div>
+            </nav>
+      
+            <ul class="sidenav" id="mobile-demo">
+              <li><a href="sass.html">Sass</a></li>
+              <li><a href="badges.html">Components</a></li>
+              <li><a href="collapsible.html">Javascript</a></li>
+              <li><a href="mobile.html">Mobile</a></li>
+            </ul>
+        </div>        
+      <div class="content-result">
+        <div class="content">
+          <div class="poster"><img src="./assets/example.jpg" alt="" srcset=""></div>
+          <div class="description-content">
+              <h3>Titúlo: The Office</h3>
+              <h4>Tiempo de duración: 22 min</h4>              
+              <p>Año: 2005–2013</p>
+              <p>Género: Comedy</p>              
+              <p>resumen: A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium.</p>
+              <p>Tipo: series</p>
+              <button class="refresh">¡Otra vez!</button>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="./js/data.js"></script>
     <script src="./js/main.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
+      });
+    </script>
   </body>
 </html>
